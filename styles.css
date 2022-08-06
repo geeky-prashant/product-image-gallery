@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.product {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.product-small-img img {
+  height: 92px;
+  margin: 10px 0;
+  cursor: pointer;
+  display: block;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+.product-small-img img:hover {
+  opacity: 1;
+}
+.img-container img {
+  height: 500px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.product-small-img {
+  float: left;
+}
+.img-container {
+  float: right;
+  padding: 10px;
+}
